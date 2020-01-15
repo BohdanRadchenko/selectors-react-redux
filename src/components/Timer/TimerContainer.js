@@ -1,11 +1,12 @@
-import * as timerActions from '../../redux/timerActions';
+import * as timerActions from '../../redux/timer/timerActions';
 import {connect} from 'react-redux';
 import Timer from './Timer'
+import * as timerSelectors from '../../redux/timer/timerSelectors'
 
 
 const mapStateToProps = (state) => ({
-  value: state.timer.value,
-  step : state.timer.step.value
+  value: timerSelectors.getValue(state),
+  step: timerSelectors.getStep(state)
 })
 
 const mapDispatchToProps = (dispatch) => ({

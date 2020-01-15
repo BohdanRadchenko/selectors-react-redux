@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b03bfedf-ea1b-47e2-a091-e3bc5b09c7c4" name="Default Changelist" comment="" />
+    <list default="true" id="b03bfedf-ea1b-47e2-a091-e3bc5b09c7c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/posts/postsActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/posts/postsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/posts/postsSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/timer/timerSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepSelector/StepSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepSelector/StepSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Timer/TimerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/TimerContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/stepReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/timer/stepReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/timerActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/timer/timerActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/timerReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/timer/timerReducer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WObkrJ54fRmZg926btSb78gM9X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,11 +36,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_github\timer-react-redux\selectors-react-redux\src\redux\timer" />
+      <recent name="D:\_github\timer-react-redux\selectors-react-redux\src\redux\posts" />
       <recent name="D:\_github\timer-react-redux\timer-redux\src\components" />
       <recent name="D:\_github\timer-react-redux\timer-redux\src\components\Timer" />
     </key>
@@ -50,28 +74,48 @@
       <option name="presentableId" value="Default" />
       <updated>1579023736178</updated>
       <workItem from="1579023756091" duration="10929000" />
+      <workItem from="1579077916240" duration="11057000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="43" key="#ESLint" timestamp="1579079659546">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="43" key="#ESLint/0.0.1366.768@0.0.1366.768" timestamp="1579079659546" />
     <state x="413" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579024052850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1579024052850" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579023812216">
+    <state x="184" y="27" key="SettingsEditor" timestamp="1579086457948">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579023812216" />
-    <state x="244" y="121" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579040212105">
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1579086457948" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579078139790">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="244" y="121" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1579040212105" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579036070433">
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579078139790" />
+    <state x="244" y="121" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579086381410">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1579036070433" />
+    <state x="244" y="121" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1579086381410" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1579082139337">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1579082139337" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579086405793">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1579086405793" />
   </component>
 </project>
